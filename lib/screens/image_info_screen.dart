@@ -48,18 +48,6 @@ class _ImageInfoScreenState extends State<ImageInfoScreen> {
       ),
       body: SafeArea(
         child: Center(child: Image.network(widget.fullImageUrl!)),
-        // child: Container(
-        //   width: MediaQuery.of(context).size.width,
-        //   height: 300,
-        //   margin: EdgeInsets.all(12),
-        //   decoration: BoxDecoration(
-        //     borderRadius: BorderRadius.all(Radius.circular(12.0)),
-        //     image: DecorationImage(
-        //       image: NetworkImage(widget.fullImageUrl!),
-        //       fit: BoxFit.cover,
-        //     ),
-        //   ),
-        // ),
       ),
     );
   }
